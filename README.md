@@ -17,14 +17,14 @@ Bitalinoとペアリングをしておくこと．
 python ADmonirecBitalino.py <Channels> <Fs> <Trec>
 ```
 ここで
-* Channels: 測定するチャンネル(A1-A5)の設定．カッコ( )内はBoard Kitの場合
+- Channels: 測定するチャンネル(A1-A5)の設定．カッコ( )内はBoard Kitの場合
  - 0: A1 (EMG)
  - 1: A2 (ECG)
  - 2: A3 (EDA)
  - 3: A4 (EEG)
  - 4: A5 (ACC)
-* Fs: サンプリング周波数 (≦1000) [Hz] 
-* Trec: Rキーの押下時刻を開始時刻としたデータの収録時間[s]
+- Fs: サンプリング周波数 (≦1000) [Hz] 
+- Trec: Rキーの押下時刻を開始時刻としたデータの収録時間[s]
 
 例えば
 ```bash
