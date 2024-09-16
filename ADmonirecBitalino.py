@@ -19,7 +19,7 @@ from bitalino import BITalino
 
 # Init.
 Twin=0.5
-#macAddress = '20:18:05:28:62:98' # or 'COMX' on Windows
+#macAddress = 'XX:XX:XX:XX:XX:XX' # or 'COMX' on Windows
 macAddress = '/dev/tty.BITalino-97-3E-DevB'
 batteryThreshold = 30
 device = BITalino(macAddress) # Connect to BITalino
